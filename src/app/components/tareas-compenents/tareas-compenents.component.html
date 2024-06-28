@@ -1,0 +1,27 @@
+<h1>Asignar Tareas</h1>
+
+<div class="contenedorFlex">
+  <div class="conetendorCard">
+    <h3 class="h3-title">Lista de tareas</h3>
+    <div class="card">
+      <h5 class="card-title">Barrer</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="asignarUsuarioFlex">
+        <select class="form-select" #selectUsuario>
+          @for (item of usuariosDisponibles; track $index) {
+            <option value="{{item}}">{{item}}</option>
+          }
+        </select>
+        <button class="btnAsignar" (click)="agregarUsuario(selectUsuario.value)">Asignar usuario</button>
+      </div>
+    </div>   
+     
+  </div>
+  <div class="conetendorCard">
+ 
+  </div>
+  <div class="conetendorCard">
+    
+  </div>
+</div>
+

@@ -1,0 +1,36 @@
+.contenedorFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.conetendorCard{
+    width: 400px;
+    height: 800px;
+    background-color: rgba(133, 133, 133, 0.384);
+}
+
+.h3-title{
+   text-align: center;
+}
+
+.card{
+    margin:6px 6px 25px;
+}
+
+.card-title{
+    margin-left: 5px;
+}
+
+.asignarUsuarioFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.form-select,.btnAsignar{
+width: 350px;
+border-radius: 8px;
+margin: 5px auto;
+}
